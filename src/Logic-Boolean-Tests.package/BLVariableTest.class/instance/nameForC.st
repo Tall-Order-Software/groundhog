@@ -1,0 +1,3 @@
+accessing
+nameForC
+	^ 'C'
