@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "BrenLarcom 2/5/2020 14:45",
+	"super" : "ClassTestCase",
+	"category" : "Logic-Boolean-Tests-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"presenter"
+	],
+	"name" : "BLFunctionPresenterTest",
+	"type" : "normal"
+}

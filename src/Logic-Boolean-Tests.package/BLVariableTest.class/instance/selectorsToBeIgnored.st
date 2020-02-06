@@ -1,7 +1,8 @@
 coverage
 selectorsToBeIgnored
-	| testedInSetUp |
+	| testedInSetUp calledByTestedMethods |
 
 	testedInSetUp := #( #named: #named:equals: #on: ).
+	calledByTestedMethods := #( #printOn: ).
 
-	^ super selectorsToBeIgnored, testedInSetUp
+	^ super selectorsToBeIgnored, testedInSetUp, calledByTestedMethods

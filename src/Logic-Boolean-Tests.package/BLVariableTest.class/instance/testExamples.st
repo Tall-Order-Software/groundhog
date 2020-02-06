@@ -4,10 +4,16 @@ testExamples
 	| atomOnly nameOnly both |
 
 	atomOnly := self classToBeTested instanceWithAtom.
-	self assert: [ atomOnly name isNil ].
+	self
+		deny:   [ atomOnly atom isNil ];
+		assert: [ atomOnly name isNil ].
 
 	nameOnly := self classToBeTested namedInstance.
-	self assert: [ nameOnly atom isNil ].
+	self
+		assert: [ nameOnly atom isNil ];
+		deny:   [ nameOnly name isNil ].
 
 	both := self classToBeTested namedInstanceWithAtom.
-	self assert: [ both name isNotNil ].
+	self
+		deny:   [ both atom isNil ];
+		deny:   [ both name isNil ]
