@@ -4,4 +4,4 @@ instanceWithAtom
 	"See https://en.wikipedia.org/wiki/Liar_paradox"
 	<sampleInstance>
 
-	^ self on: 'this sentence is false'
+	^ self on: ('this sentence is false' flag: #i18n)

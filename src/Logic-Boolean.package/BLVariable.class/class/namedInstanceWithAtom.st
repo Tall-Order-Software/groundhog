@@ -4,4 +4,4 @@ namedInstanceWithAtom
 	"See https://www.urbandictionary.com/define.php?term=there%27s%20no%20there%20there"
 	<sampleInstance>
 
-	^ self named: 'y' equals: 'there''s no there there'
+	^ self named: 'y' equals: ('there''s no there there' flag: #i18n)
