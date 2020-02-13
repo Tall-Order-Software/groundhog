@@ -8,8 +8,7 @@ each other.
 ### Instantiation
 
 ```Smalltalk
-self new
-	model: (BLVariable named: 'A' equals: 'the moon is made of green cheese');
+(self on: (BLVariable named: 'A' equals: 'the moon is made of green cheese'))
 	openWithSpec.
 ```
 
