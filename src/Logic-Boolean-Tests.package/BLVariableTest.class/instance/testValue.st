@@ -2,14 +2,23 @@ tests
 testValue
 	"Test evaluation"
 	"See https://en.wiktionary.org/wiki/actions_speak_louder_than_words"	
-			
 	| idiom |
-	self assert: a value equals: self objectForA.
-	"ObjectForB is time dependent.  This test may fail around noon."
-	self assert: b value equals: self objectForB value.
-	self assert: c value equals: nil.
-	self assert: (self classToBeTested on: true) value equals: true.
-	self assert: (self classToBeTested on: false) value equals: false.
-	self assert: (self classToBeTested on: [ true ]) value equals: true.
+
 	idiom := 'actions speak louder than words' flag: #i18n.
-	self assert: (self classToBeTested on: [ idiom ]) value equals: idiom
+
+	self
+		assert: a value equals: self objectForA;
+		assert: b value equals: self objectForB value;
+		assert: c value equals: nil;
+		assert: (self classToBeTested on: true) value equals: true;
+		assert: (self classToBeTested on: false) value equals: false;
+		assert: (self classToBeTested on: [ true ]) value equals: true;
+		assert: (self classToBeTested on: [ idiom ]) value equals: idiom;
+
+		should: [ a negated value ] raise: MessageNotUnderstood;
+		deny:   b negated value equals: self objectForB value;
+		assert: c negated value equals: nil;
+		assert: (self classToBeTested on: true) negated value equals: false;
+		assert: (self classToBeTested on: false) negated value equals: true;
+		assert: (self classToBeTested on: [ true ]) negated value equals: false;
+		should: [ (self classToBeTested on: [ idiom ]) negated value ] raise: MessageNotUnderstood
