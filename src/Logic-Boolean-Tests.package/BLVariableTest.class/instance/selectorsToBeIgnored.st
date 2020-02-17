@@ -3,6 +3,6 @@ selectorsToBeIgnored
 	| testedInSetUp calledByTestedMethods |
 
 	testedInSetUp := #( #named: #named:equals: #on: ).
-	calledByTestedMethods := #( #initialize #printOn: ).
+	calledByTestedMethods := #( #= #initialize #printOn: ).
 
 	^ super selectorsToBeIgnored, testedInSetUp, calledByTestedMethods
