@@ -1,5 +1,5 @@
 tests
-testAtomChange	
+testAtom
 	"Change the atom of an instance"
 
 	"Change an existing atom."

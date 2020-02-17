@@ -1,6 +1,6 @@
 tests
-testPrintString
-	"Print an instance"
+testPrintOn
+	"Print an instance, thereby testing printOn:"
 	| uninit |
 
 	"Uninitialized instance"
