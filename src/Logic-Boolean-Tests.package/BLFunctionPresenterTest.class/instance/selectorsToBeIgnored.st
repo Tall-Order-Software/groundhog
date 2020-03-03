@@ -3,6 +3,6 @@ selectorsToBeIgnored
 	| testedInSetUp calledByTestedMethods |
 
 	testedInSetUp := #( #defaultSpec #initializePresenters ).
-	calledByTestedMethods := #( #modelChanged ).
+	calledByTestedMethods := #( #initializeWindow: #modelChanged ).
 
 	^ super selectorsToBeIgnored, testedInSetUp, calledByTestedMethods
