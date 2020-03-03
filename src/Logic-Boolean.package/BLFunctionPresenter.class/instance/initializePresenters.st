@@ -10,6 +10,7 @@ initializePresenters
 		addColumn: (SpStringTableColumn
 			title: ('Expression' flag: #i18n)
 			evaluated: #displayString);
+		contextMenuFromCommandsGroup: [ self rootCommandsGroup / 'Context Menu' ];
 		children: [ :anObject | #() ];
 		beResizable.
 
