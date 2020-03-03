@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BLCommand",
+	"category" : "Logic-Boolean-Commands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BLEditVariable",
+	"type" : "normal"
+}
