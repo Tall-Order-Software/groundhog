@@ -1,4 +1,4 @@
-initialization
+updating
 modelChanged
 	"My model (announcingObject) has changed"
 

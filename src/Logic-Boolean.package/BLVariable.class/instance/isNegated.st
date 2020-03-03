@@ -1,4 +1,4 @@
-testing
+accessing
 isNegated
 	"Answer whether my sense is inverted."
 	^ not
