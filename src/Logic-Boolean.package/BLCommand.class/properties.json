@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CmCommand",
+	"category" : "Logic-Boolean-Commands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BLCommand",
+	"type" : "normal"
+}
