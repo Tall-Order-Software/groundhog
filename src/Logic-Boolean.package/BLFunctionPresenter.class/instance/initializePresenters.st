@@ -4,7 +4,7 @@ initializePresenters
 
 	"Instantiate widgets"
 	tree := self newTreeTable.
-	
+
 	"Configure widgets"
 	tree
 		addColumn: (SpStringTableColumn
@@ -12,6 +12,7 @@ initializePresenters
 			evaluated: #displayString);
 		children: [ :anObject | #() ];
 		beResizable.
-	
+
 	"Specify focus order"
 	self focusOrder add: tree
+

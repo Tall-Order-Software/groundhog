@@ -10,6 +10,6 @@ testOpen
 	 throws an exception."
 	presenter openWithSpec.
 	self assert: presenter isDisplayed.
-	
+
 	presenter owner close.
 	self deny: presenter isDisplayed

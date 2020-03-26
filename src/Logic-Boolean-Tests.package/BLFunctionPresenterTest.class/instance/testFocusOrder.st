@@ -4,4 +4,4 @@ testFocusOrder
 
 	presenter openWithSpec.
 
-	self assert: presenter focusOrder equals: presenter presenters 
+	self assert: presenter focusOrder equals: presenter presenters

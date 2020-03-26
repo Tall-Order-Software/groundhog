@@ -1,9 +1,9 @@
 tests - displaying
 testModelVariable
 	"Test my target's display of different kinds of Boolean variables"
-			
+
 	| instanceWithAtom namedInstance namedInstanceWithAtom |
-	
+
 	instanceWithAtom := self classToBeTested new
 		model: BLVariable instanceWithAtom;
 		openWithSpec.

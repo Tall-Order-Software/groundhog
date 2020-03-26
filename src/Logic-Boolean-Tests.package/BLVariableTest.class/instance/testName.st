@@ -1,5 +1,5 @@
 tests - accessing
-testName	
+testName
 	"Change the name of an instance"
 
 	"Set a previously unset name."

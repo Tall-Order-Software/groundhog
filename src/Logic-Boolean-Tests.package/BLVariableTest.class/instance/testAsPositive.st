@@ -7,6 +7,6 @@ testAsPositive
 
 	self deny: [ b asPositive isNegated ].
 	self deny: [ b negated asPositive isNegated ].
-	
+
 	self deny: [ c asPositive isNegated ].
 	self deny: [ c negated asPositive isNegated ]

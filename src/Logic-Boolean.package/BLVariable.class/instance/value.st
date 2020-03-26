@@ -5,7 +5,7 @@ value
 
 	^ self isNegated
 		ifFalse: [ atom value ]
-		ifTrue: [ 
+		ifTrue: [
 			atom
 				ifNotNil: [ atom value not ]
 				ifNil: [ nil ]

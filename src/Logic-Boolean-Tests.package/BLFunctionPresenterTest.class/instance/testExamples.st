@@ -1,5 +1,5 @@
 tests - examples
-testExamples 
+testExamples
 	"Confirm that no examples throw exceptions"
 
   self classToBeTested instanceWithAtom openWithSpec close.

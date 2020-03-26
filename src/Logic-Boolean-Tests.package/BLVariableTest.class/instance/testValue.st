@@ -1,7 +1,7 @@
 tests
 testValue
 	"Test evaluation"
-	"See https://en.wiktionary.org/wiki/actions_speak_louder_than_words"	
+	"See https://en.wiktionary.org/wiki/actions_speak_louder_than_words"
 	| idiom |
 
 	idiom := 'actions speak louder than words' flag: #i18n.

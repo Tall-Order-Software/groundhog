@@ -2,4 +2,4 @@ examples
 namedInstance
 	<sampleInstance>
 
-	^ self on: BLVariable namedInstance 
+	^ self on: BLVariable namedInstance

@@ -2,4 +2,4 @@ examples
 namedInstanceWithAtom
 	<sampleInstance>
 
-	^ self on: BLVariable namedInstanceWithAtom 
+	^ self on: BLVariable namedInstanceWithAtom
