@@ -1,4 +1,4 @@
-tests
+tests - accessing
 testToggleNegated
 	"Test accessors for not instance variable"
 

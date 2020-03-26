@@ -1,4 +1,4 @@
-tests
+tests - accessing
 testIsNegated
 	"Test accessors for not instance variable"
 

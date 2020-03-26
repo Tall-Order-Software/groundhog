@@ -1,4 +1,4 @@
-tests
+tests - instance creation
 testAsPositive
 	"Test creation of a positive instance (non-negated)"
 

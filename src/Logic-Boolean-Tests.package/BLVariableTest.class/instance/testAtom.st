@@ -1,4 +1,4 @@
-tests
+tests - accessing
 testAtom
 	"Change the atom of an instance"
 

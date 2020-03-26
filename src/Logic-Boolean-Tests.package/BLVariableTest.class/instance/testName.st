@@ -1,4 +1,4 @@
-tests
+tests - accessing
 testName	
 	"Change the name of an instance"
 

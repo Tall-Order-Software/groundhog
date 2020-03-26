@@ -1,4 +1,4 @@
-tests
+tests - instance creation
 testInstanceCreation
 	"Create an instance of the class I test"
 
