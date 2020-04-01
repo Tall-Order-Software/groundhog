@@ -7,7 +7,7 @@ testAtomValueChanged
 	c whenChangedSend: #update to: self.
 
 	"Change an existing atom."
-	a atom: self objectForB.
+	a atom: self objectForD.
 	self assert: updateCount equals: 1.
 
 	"Unset an existing atom."

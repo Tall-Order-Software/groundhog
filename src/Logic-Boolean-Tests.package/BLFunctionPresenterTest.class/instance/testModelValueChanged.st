@@ -7,7 +7,7 @@ testModelValueChanged
 	presenter model: namedInstance.
 	self assert: [ presenter tree roots includes: namedInstance ].
 
-	instanceWithAtom := BLVariable instanceWithAtom.
+	instanceWithAtom := BLAnonymousVariable instanceWithAtom.
 	presenter model: instanceWithAtom.
 	self assert: [ presenter tree roots includes: instanceWithAtom ].
 	self deny: [ presenter tree roots includes: namedInstance ]

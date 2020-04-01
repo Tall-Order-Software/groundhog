@@ -10,9 +10,9 @@ testInstanceCreation
 	self assert: a name equals: nil.
 	self assert: a atom equals: self objectForA.
 
-	self assert: b name equals: self nameForB.
+	self assert: d name equals: self nameForD.
 	"BlockClosure does not include an equivalence test."
-	self assert: b atom printString equals: self objectForB printString.
+	self assert: d atom printString equals: self objectForD printString.
 
 	self assert: c name equals: self nameForC.
 	self assert: c atom equals: nil.

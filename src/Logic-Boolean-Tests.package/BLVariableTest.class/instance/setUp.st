@@ -4,7 +4,6 @@ setUp
 
 	super setUp.
 
-	a := self classToBeTested on: self objectForA.
-	b := self classToBeTested named: self nameForB equals: self objectForB.
 	c := self classToBeTested named: self nameForC.
+	d := self classToBeTested named: self nameForD equals: self objectForD.
 	updateCount := 0

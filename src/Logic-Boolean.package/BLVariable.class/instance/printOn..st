@@ -6,6 +6,11 @@ printOn: aStream
 	name ifNotNil: [
 		name printOn: aStream.
 		atom ifNotNil: [ aStream nextPutAll: ': ' ]].
-	atom ifNotNil: [ atom printOn: aStream ].
-	(name isNil and: [ atom isNil ])
-		ifTrue: [ super printOn: aStream ]
+	atom 
+		ifNotNil: [ atom printOn: aStream ]
+		ifNil: [  
+			name ifNil: [
+				not 
+					ifTrue: [ aStream nextPutAll: ('initialized yet' flag: #i18n) ]
+					ifFalse: [ super printOn: aStream ] ] ]
+

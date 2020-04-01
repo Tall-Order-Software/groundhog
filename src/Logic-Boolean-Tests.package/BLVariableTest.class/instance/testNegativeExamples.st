@@ -1,13 +1,13 @@
 tests
 testNegativeExamples
 	"Create specific instances of the class I test"
-	| atomOnly nameOnly both |
+	| nameOnly both atomOnly|
+
+	super testNegativeExamples.
 
 	atomOnly := self classToBeTested negatedInstanceWithAtom.
 	self
-		deny:   atomOnly atom isNil;
-		assert: atomOnly name isNil;
-		assert: atomOnly isNegated.
+		assert: atomOnly name isNil.
 
 	nameOnly := self classToBeTested negatedNamedInstance.
 	self

@@ -2,4 +2,4 @@ examples
 negatedInstanceWithAtom
 	<sampleInstance>
 
-	^ self on: BLVariable negatedInstanceWithAtom
+	^ self on: BLAnonymousVariable negatedInstanceWithAtom

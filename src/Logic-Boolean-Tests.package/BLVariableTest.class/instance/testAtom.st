@@ -3,9 +3,9 @@ testAtom
 	"Change the atom of an instance"
 
 	"Change an existing atom."
-	a atom: self objectForB.
+	a atom: self objectForD.
 	"BlockClosure does not include an equivalence test."
-	self assert: a atom printString equals: self objectForB printString.
+	self assert: a atom printString equals: self objectForD printString.
 
 	"Unset an existing atom."
 	a atom: nil.

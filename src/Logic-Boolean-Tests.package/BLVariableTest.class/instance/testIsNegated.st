@@ -8,7 +8,7 @@ testIsNegated
 	a isNegated: false.
 	self deny: [ a isNegated ].
 
-	self deny: [ b isNegated ].
-	b isNegated: false.
-	self deny: [ b isNegated ]
+	self deny: [ d isNegated ].
+	d isNegated: false.
+	self deny: [ d isNegated ]
 

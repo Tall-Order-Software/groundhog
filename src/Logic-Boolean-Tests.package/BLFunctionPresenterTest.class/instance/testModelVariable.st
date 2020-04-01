@@ -5,7 +5,7 @@ testModelVariable
 	| instanceWithAtom namedInstance namedInstanceWithAtom |
 
 	instanceWithAtom := self classToBeTested new
-		model: BLVariable instanceWithAtom;
+		model: BLAnonymousVariable instanceWithAtom;
 		openWithSpec.
 	self assert: instanceWithAtom isDisplayed.
 	instanceWithAtom close.

@@ -3,11 +3,10 @@ testPositiveExamples
 	"Create specific instances of the class I test"
 	| atomOnly nameOnly both |
 
+	super testPositiveExamples.
 	atomOnly := self classToBeTested instanceWithAtom.
 	self
-		deny:   atomOnly atom isNil;
-		assert: atomOnly name isNil;
-		deny:   atomOnly isNegated.
+		assert: atomOnly name isNil.
 
 	nameOnly := self classToBeTested namedInstance.
 	self

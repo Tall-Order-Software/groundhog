@@ -1,14 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "BLAnonymousVariableTest",
+	"super" : "ClassTestCase",
 	"category" : "Logic-Boolean-Tests-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"c",
-		"d"
+		"updateCount",
+		"a",
+		"b"
 	],
-	"name" : "BLVariableTest",
+	"name" : "BLAnonymousVariableTest",
 	"type" : "normal"
 }

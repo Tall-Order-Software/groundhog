@@ -8,5 +8,5 @@ value
 		ifTrue: [
 			atom
 				ifNotNil: [ atom value not ]
-				ifNil: [ nil ]
-		]
+				ifNil: [ nil ] ]
+
