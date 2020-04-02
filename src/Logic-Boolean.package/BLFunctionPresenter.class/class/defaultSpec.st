@@ -5,4 +5,5 @@ defaultSpec
 
 	^SpBoxLayout newHorizontal
 		add: #tree;
+		add: #button;
 		yourself

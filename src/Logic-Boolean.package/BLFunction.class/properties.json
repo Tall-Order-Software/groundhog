@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Model",
+	"category" : "Logic-Boolean-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BLFunction",
+	"type" : "normal"
+}

@@ -5,6 +5,6 @@ buildItemCommandsGroupWith: presenter
 	^ (CmCommandGroup named: self itemCommandsGroupID) asSpecGroup
 			description: ('Commands that affect the selected item.' flag: #i18n);
 			register: BLEditVariable forSpec;
-			register: BLToggleNegated forSpec;
+			register: self toggleNegatedCommandClass forSpec;
 			beDisplayedAsGroup;
 			yourself

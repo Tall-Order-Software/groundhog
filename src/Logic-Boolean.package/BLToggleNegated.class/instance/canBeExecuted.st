@@ -1,3 +1,0 @@
-testing
-canBeExecuted
-	^ self hasExpression

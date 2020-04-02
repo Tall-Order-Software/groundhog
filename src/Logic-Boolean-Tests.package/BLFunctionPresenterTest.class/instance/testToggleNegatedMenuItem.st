@@ -8,7 +8,7 @@ testToggleNegatedMenuItem
   window := menuPresenter openWithSpec.
 	toggleNegatedCommand :=
 			(presenter rootCommandsGroup allCommands select: [ :each |
-				each name = BLToggleNegated defaultName ]) anyOne.
+				each name =  presenter class toggleNegatedCommandClass defaultName ]) anyOne.
 	self assert: toggleNegatedCommand notNil.
 	"entries includes One named BLToggleNegated defaultName"
 	"presenter tree contextMenu value menuGroups menuItems"
