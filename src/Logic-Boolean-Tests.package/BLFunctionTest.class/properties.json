@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "ClassTestCase",
+	"super" : "BLExpressionTest",
 	"category" : "Logic-Boolean-Tests-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -9,6 +9,6 @@
 		"a",
 		"notA"
 	],
-	"name" : "BLClauseTest",
+	"name" : "BLFunctionTest",
 	"type" : "normal"
 }

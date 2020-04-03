@@ -1,13 +1,12 @@
 {
 	"commentStamp" : "",
-	"super" : "ClassTestCase",
+	"super" : "BLFunctionTest",
 	"category" : "Logic-Boolean-Tests-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"updateCount",
-		"a",
 		"b"
 	],
 	"name" : "BLAnonymousVariableTest",
