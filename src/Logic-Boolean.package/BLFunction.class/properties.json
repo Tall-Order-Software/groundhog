@@ -1,12 +1,11 @@
 {
 	"commentStamp" : "BrenLarcom 4/3/2020 15:44",
-	"super" : "Model",
+	"super" : "BLExpression",
 	"category" : "Logic-Boolean-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"parents",
 		"not"
 	],
 	"name" : "BLFunction",

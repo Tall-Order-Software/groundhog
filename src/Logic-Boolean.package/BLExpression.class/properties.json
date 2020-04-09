@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "BrenLarcom 11/22/2019 18:59",
-	"super" : "Announcer",
+	"super" : "Model",
 	"category" : "Logic-Boolean-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
