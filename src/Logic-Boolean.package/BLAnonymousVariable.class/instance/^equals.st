@@ -3,5 +3,5 @@ comparing
 	"Answer whether I am equivalent to anObject."
 
 	^ self class = anObject class
-		and: [(self atom = anObject atom)
-		and: [self isNegated = anObject isNegated]]
+		and: [ (self atomEquivalenceWith: anObject)
+		and: [ self isNegated = anObject isNegated ]]

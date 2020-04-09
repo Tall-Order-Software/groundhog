@@ -1,9 +1,9 @@
 accessing
 children: aCollection 
-	"Set my children."
+	"Set my children"
+
 	children
-		ifNotNil: [children do: [:child | child removeParent: self]].
+		ifNotNil: [ children do: [ :child | child removeParent: self ]].
 	children := aCollection asOrderedCollection.
 	children
-		do: [:child | child addParent: self].
-	^self simplified
+		do: [ :child | child addParent: self ]

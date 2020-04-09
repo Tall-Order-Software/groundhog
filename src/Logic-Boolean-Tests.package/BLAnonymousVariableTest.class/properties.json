@@ -5,10 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"updateCount",
-		"b"
-	],
+	"instvars" : [ ],
 	"name" : "BLAnonymousVariableTest",
 	"type" : "normal"
 }

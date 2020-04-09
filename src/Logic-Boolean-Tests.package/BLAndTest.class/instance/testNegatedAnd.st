@@ -1,18 +1,13 @@
 tests
 testNegatedAnd
-	| and1 result resultChildren |
-	and1 := a /\ b.
-	result := and1 negated.
+	| result resultChildren |
+
+	result := (a /\ b) negated.
 	resultChildren := result children.
+
 	self
-		should: [result isOr];
-		
-		should: [resultChildren size = 2];
-		
-		shouldnt: [resultChildren includes: a];
-		
-		shouldnt: [resultChildren includes: b];
-		
-		should: [resultChildren first isNegated = true];
-		
-		should: [resultChildren second isNegated = true]
+		assert: [ result isAnd ];
+		assert: [ resultChildren size = 2 ];
+		assert: [ resultChildren includes: a ];
+		assert: [ resultChildren includes: b ];	
+		assert: result isNegated equals: true 

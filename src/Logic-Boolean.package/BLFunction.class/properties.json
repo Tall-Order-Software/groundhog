@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"parents",
+		"not"
+	],
 	"name" : "BLFunction",
 	"type" : "normal"
 }

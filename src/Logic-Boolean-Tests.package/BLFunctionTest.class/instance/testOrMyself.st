@@ -1,5 +1,10 @@
 tests
 testOrMyself
-	"By the rules of Boolean logic, a \/ a will always be a"
+	| result |
 
-	self assert: a \/ a equals: a
+	result := a \/ a.
+
+	self
+		assert: [ result isOr ];
+		assert: result children size equals: 2;
+		assert: [ result children includes: a ]

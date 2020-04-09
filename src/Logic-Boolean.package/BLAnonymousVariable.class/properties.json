@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"atom",
-		"not"
+		"atom"
 	],
 	"name" : "BLAnonymousVariable",
 	"type" : "normal"

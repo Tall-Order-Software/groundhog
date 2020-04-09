@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"a",
-		"notA"
+		"notA",
+		"b",
+		"updateCount"
 	],
 	"name" : "BLFunctionTest",
 	"type" : "normal"
