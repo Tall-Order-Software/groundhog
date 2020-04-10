@@ -1,5 +1,6 @@
 tests
 testEquivalenceIdentity
+	"Implicitly tests = and atomEquivalenceWith:"
 	| anotherA notAnotherA |
 
 	anotherA := self classToBeTested on: self objectForA.

@@ -1,10 +1,11 @@
 tests
 testAndOpposites
-  "By the rules of Boolean logic, a /\ not (a) will always be false"
-	| and |
+	| result |
 
-	and := a /\ notA.
-	
-	"If and is not an AtomicTerm, it will not respond to #atom."
-	self assert: and atom equals: false.
+	result := a /\ notA.
 
+	self
+		assert: [ result isAnd ];
+		assert: result children size equals: 2;
+		assert: [ result children includes: a ];
+		assert: [ result children includes: notA ]
