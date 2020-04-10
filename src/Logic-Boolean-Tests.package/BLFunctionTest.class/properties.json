@@ -8,8 +8,7 @@
 	"instvars" : [
 		"a",
 		"notA",
-		"b",
-		"updateCount"
+		"b"
 	],
 	"name" : "BLFunctionTest",
 	"type" : "normal"

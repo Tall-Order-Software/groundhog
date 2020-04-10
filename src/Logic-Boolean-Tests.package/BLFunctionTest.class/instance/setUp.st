@@ -6,5 +6,4 @@ setUp
 
 	a := self classToBeTested on: self objectForA.
 	notA := a negated.
-	b := self classToBeTested new.
-	updateCount := 0
+	b := self classToBeTested new
