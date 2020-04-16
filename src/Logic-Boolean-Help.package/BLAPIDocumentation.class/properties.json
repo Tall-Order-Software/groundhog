@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "BrenLarcom 4/10/2020 23:14",
+	"super" : "BLHelp",
+	"category" : "Logic-Boolean-Help",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BLAPIDocumentation",
+	"type" : "normal"
+}

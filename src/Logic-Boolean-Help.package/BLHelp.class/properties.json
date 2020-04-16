@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "BrenLarcom 4/10/2020 23:08",
+	"super" : "CustomHelp",
+	"category" : "Logic-Boolean-Help",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BLHelp",
+	"type" : "normal"
+}

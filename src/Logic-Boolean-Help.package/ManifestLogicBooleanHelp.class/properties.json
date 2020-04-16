@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "BrenLarcom 4/15/2020 11:12",
+	"super" : "PackageManifest",
+	"category" : "Logic-Boolean-Help-Manifest",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ManifestLogicBooleanHelp",
+	"type" : "normal"
+}
