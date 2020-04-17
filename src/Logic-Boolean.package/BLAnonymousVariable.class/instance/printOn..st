@@ -4,6 +4,6 @@ printOn: aStream
 
 	not ifTrue: [ aStream nextPutAll: ('NOT ' flag: #i18n) ].
 	atom 
-		ifNotNil: [ atom printOn: aStream ]
+		ifNotNil: [ atom displayStringOn: aStream ]
 		ifNil: [ super printOn: aStream ]
 

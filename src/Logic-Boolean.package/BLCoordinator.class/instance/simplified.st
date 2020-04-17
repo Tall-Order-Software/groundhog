@@ -3,10 +3,10 @@ simplified
 	"Answer a simplified version of myself."
 	| result |
 	
-	result := self ifNotNil: [ self asTruthTable equivalentClause ].
+	result := super simplified.
 
 	result canHaveChildren
 		ifFalse: [ ^ result ].
 	result children size = 1
-		ifTrue: [ ^children only ].
+		ifTrue: [ ^children anyOne ].
 	^ result

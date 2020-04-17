@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "BLExpression",
+	"category" : "Logic-Boolean-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"atomicTerms",
+		"map",
+		"grayCodes",
+		"codeCombinations"
+	],
+	"name" : "BLKarnaughMap",
+	"type" : "normal"
+}
