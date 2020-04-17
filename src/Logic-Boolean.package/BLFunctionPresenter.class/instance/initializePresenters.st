@@ -14,7 +14,7 @@ initializePresenters
 			title: ('Expression' flag: #i18n)
 			evaluated: #displayString);
 		contextMenuFromCommandsGroup: [ self rootCommandsGroup / 'Context Menu' ];
-		children: [ :anObject | #() ];
+		children: self childrenBlock;
 		beResizable.
 	command 
 		context: tree.

@@ -13,7 +13,7 @@ testPrintOn
 
 	"Atom only"
 	self
-		assert: [ a printString includesSubstring: self objectForA printString ];
+		assert: [ a printString includesSubstring: self objectForA displayString ];
 		deny:   [ a printString includesSubstring: ': ' ];
 		assert: [ a negated printString includesSubstring: negationPhrase ].
 

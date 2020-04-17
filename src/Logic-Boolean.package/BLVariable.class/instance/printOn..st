@@ -4,10 +4,10 @@ printOn: aStream
 
 	not ifTrue: [ aStream nextPutAll: ('NOT ' flag: #i18n) ].
 	name ifNotNil: [
-		name printOn: aStream.
+		name displayStringOn: aStream.
 		atom ifNotNil: [ aStream nextPutAll: ': ' ]].
 	atom 
-		ifNotNil: [ atom printOn: aStream ]
+		ifNotNil: [ atom displayStringOn: aStream ]
 		ifNil: [  
 			name ifNil: [
 				not 
