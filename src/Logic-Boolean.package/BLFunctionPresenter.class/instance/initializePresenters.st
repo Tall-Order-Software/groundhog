@@ -15,6 +15,7 @@ initializePresenters
 			evaluated: #displayString);
 		contextMenuFromCommandsGroup: [ self rootCommandsGroup / 'Context Menu' ];
 		children: self childrenBlock;
+		hideColumnHeaders;
 		beResizable.
 	command 
 		context: tree.
