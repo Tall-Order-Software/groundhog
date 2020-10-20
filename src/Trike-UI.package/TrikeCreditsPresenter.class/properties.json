@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TrikePagePresenter",
+	"category" : "Trike-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "TrikeCreditsPresenter",
+	"type" : "normal"
+}

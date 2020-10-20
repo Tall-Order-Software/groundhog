@@ -1,0 +1,3 @@
+pages
+creditsPage
+	^ TrikeCreditsPage new 

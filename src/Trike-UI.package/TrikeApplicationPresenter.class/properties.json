@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TrikePresenter",
+	"category" : "Trike-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"notebook",
+		"dynamicPage"
+	],
+	"name" : "TrikeApplicationPresenter",
+	"type" : "normal"
+}

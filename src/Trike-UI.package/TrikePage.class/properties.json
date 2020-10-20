@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SpPresenter",
+	"category" : "Trike-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"tabManager"
+	],
+	"name" : "TrikePage",
+	"type" : "normal"
+}
