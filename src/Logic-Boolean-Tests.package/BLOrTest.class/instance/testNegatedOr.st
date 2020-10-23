@@ -5,14 +5,9 @@ testNegatedOr
 	result := or1 negated.
 	resultChildren := result children.
 	self
-		should: [result isAnd];
-		
+		should: [result isOr];
 		should: [resultChildren size = 2];
-		
-		shouldnt: [resultChildren includes: a];
-		
-		shouldnt: [resultChildren includes: b];
-		
-		should: [resultChildren first isNegated = true];
-		
-		should: [resultChildren second isNegated = true]
+		should: [resultChildren includes: a];
+		should: [resultChildren includes: b];
+		should: [resultChildren first isNegated = false];
+		should: [resultChildren second isNegated = false]

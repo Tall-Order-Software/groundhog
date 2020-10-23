@@ -7,4 +7,5 @@ becomeOr
 		do: [:child | child removeParent: self].
 	replacement := BLOr withSimplifiedChildren: children.
 	parents
-		do: [:parent | parent replaceChild: self with: replacement]
+		do: [:parent | parent replaceChild: self with: replacement].
+	^ replacement

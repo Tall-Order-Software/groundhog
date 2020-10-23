@@ -6,10 +6,6 @@ testNegatedAndOrChildren
 	and1 := or1 /\ or2.
 	result := and1 negated.
 	resultChildren := result children.
-	self
-		should: [result isAnd].
-	self
-		should: [resultChildren size = 4].
-	resultChildren
-		do: [:child | self
-				should: [child isOr]]
+	self assert: result isAnd.
+	self assert: resultChildren size equals: 2.
+	resultChildren do: [ :child | self assert: child isOr ]

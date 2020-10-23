@@ -4,6 +4,8 @@ setUp
 
 	super setUp.
 
-	a := self classToBeTested on: self objectForA.
+	a := self variableClass on: self objectForA.
 	notA := a negated.
-	b := self classToBeTested new
+	b := self variableClass new.
+	c := self variableClass on: self objectForC.
+	d := self variableClass on: self objectForD.

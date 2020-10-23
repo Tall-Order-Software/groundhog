@@ -9,10 +9,7 @@ testNegatedOrAndChildren
 	result1 := result children first.
 	result2 := result children second.
 	self
-		should: [result isAnd];
-		
-		should: [resultChildren size = 2];
-		
-		should: [result1 isOr];
-		
-		should: [result2 isOr]
+		assert: result isOr;
+		assert: resultChildren size equals: 2;
+		assert: result1 equals: and1;
+		assert: result2 equals: and2

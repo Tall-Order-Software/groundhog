@@ -1,6 +1,5 @@
 accessing
 objectForA
-	"Parameterize object used to create a"
-	"Must answer a different instance each time."
+	"See https://en.wikipedia.org/wiki/The_Moon_is_made_of_green_cheese"
 
-	^self subclassResponsibility 
+	^ 'the moon is made of green cheese' flag: #i18n

@@ -6,8 +6,8 @@ testAndOrAtomicTerms
 	and1 := or1 /\ or2.
 	result := and1 atomicTerms.
 	self
-		should: [result size = 4];
-		should: [result includes: a];
-		should: [result includes: b];
-		should: [result includes: c];
-		should: [result includes: d].
+		assert: result size equals: 4;
+		assert: (result includes: a);
+		assert: (result includes: b);
+		assert: (result includes: c);
+		assert: (result includes: d)

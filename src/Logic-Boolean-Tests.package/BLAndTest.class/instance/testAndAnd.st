@@ -1,9 +1,7 @@
 tests
 testAndAnd
-	| and1 and2 result resultChildren c d |
+	| and1 and2 result resultChildren |
 
-	c := self variableClass on: 'Someduckingthing'.
-	d := self variableClass on: 'Someotherduckingthing'.
 	and1 := a /\ b.
 	and2 := c /\ d.
 	result := and1 /\ and2.

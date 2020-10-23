@@ -8,7 +8,9 @@
 	"instvars" : [
 		"a",
 		"notA",
-		"b"
+		"b",
+		"c",
+		"d"
 	],
 	"name" : "BLFunctionTest",
 	"type" : "normal"

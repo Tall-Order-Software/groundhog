@@ -6,7 +6,7 @@ testNegatedAtomicTerms
 	or1 := and1 \/ and2.
 	result := or1 atomicTerms.
 	self
-		should: [result size = 3];
-		should: [result includes: a];
-		should: [result includes: b];
-		should: [result includes: c]
+		assert: result size equals: 3;
+		assert: (result includes: a);
+		assert: (result includes: b);
+		assert: (result includes: c)

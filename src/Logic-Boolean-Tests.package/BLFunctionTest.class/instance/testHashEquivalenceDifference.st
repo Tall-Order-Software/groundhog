@@ -1,8 +1,10 @@
 tests
 testHashEquivalenceDifference
-	| b |
+	| e notE f |
 
-	b := self classToBeTested on: self objectForB.
+	e := self classToBeTested on: { a.b }.
+	f := self classToBeTested on: { c.d }.
+	notE := e negated. 
 	self
-		deny: a hash equals: notA hash;
-		deny: a hash equals: b hash
+		deny: e hash equals: notE hash;
+		deny: e hash equals: f hash

@@ -7,13 +7,6 @@ testOrOr
 	resultChildren := result children.
 	self
 		should: [result isOr];
-		
-		should: [resultChildren size = 4];
-		
-		should: [resultChildren includes: a];
-		
-		should: [resultChildren includes: b];
-		
-		should: [resultChildren includes: c];
-		
-		should: [resultChildren includes: d]
+		should: [resultChildren size = 2];
+		should: [resultChildren includes: or1];
+		should: [resultChildren includes: or2]
